@@ -32,5 +32,5 @@ This mini challenge will help you practice setting up a React component, managin
 
 
 Peer Reviewed by: Aaron Perez (Your name here) <br>
-Comments: All requirements are met, I like the catchy header. Plus Minus and reset button all function correctly. Great Job!!  <br> type your comments here <br> 
+Comments: <br>All requirements are met, I like the catchy header. Plus Minus and reset button all function correctly. Great Job!! <br> 
 

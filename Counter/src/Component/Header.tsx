@@ -5,8 +5,11 @@ const Header = () => {
   return (
     <>
         <header>
-            <h1 className="headerStuff">Counter Daddy!</h1>
-            <p className="marquees">Go daddy Go daddy Goooooooooooo!</p>
+            <div className="container headerStyle">
+                <h1 className="displayStyle ">Counter Daddy!</h1>
+                <p className="displayStyle">Go daddy Go daddy Goooooooooooo!</p>
+            
+            </div>
         </header>
     </>
   )  

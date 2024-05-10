@@ -4,9 +4,11 @@ const Footer = () => {
     return (
       <>
           <footer>
-              <p>
+            <div className="container">
+              <p className="displayStyle">
                   CodeStack 2024
               </p>
+            </div>
           </footer>
       </>
     )

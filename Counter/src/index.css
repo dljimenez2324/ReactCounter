@@ -1,5 +1,55 @@
+
+body {
+  background-color: cornflowerblue;
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+
+  font-family: 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.headerStyle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.displayStyle {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.centerStyle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* .moveIt {
+  margin-top: 3rem;
+} */
+
+main {
+  height: 60vh;
+  overflow-y: hidden;
+  display:flex;
+}
+
+footer {
+  margin-top: auto;
+}
+
+
+
+
 /* Code from Jose */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -25,7 +75,7 @@ body {
   align-items: center;
   height: 100vh; 
   width: 100%; 
-  /* max-width: 500px; */
+  max-width: 500px;
   border: 1px solid mediumblue;
   margin: auto;
 }
@@ -58,14 +108,7 @@ footer {
   color: aliceblue;
   display: flex;
   justify-content:center;
-}
-
-.displayStyle {
-  display: flex;
-  justify-content: center;
-  background-color: bisque;
-
-}
+} */
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -134,4 +177,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-} */
+}

@@ -6,6 +6,7 @@ const Counter = () => {
 
     const [numbers, setNumbers] = useState(0);
 
+    // these are my event handlers  incrementNumbers, decrementNumbers and resetNumbers
     const incrementNumbers = () => {
         setNumbers((prevNumbers) => prevNumbers + 1);
         //console.log(`The counter is at # ${numbers}`)
@@ -32,16 +33,20 @@ const Counter = () => {
 
   return (
     <>
-        
-        <div className="displayStyle">
-            Current Number: {numbers}
-        </div>
-        
         <main>
-            {/* <div>Counter</div> */}
-            <button className="btn btn-success " onClick={incrementNumbers}>+ 1</button>
-            <button className="btn btn-danger" onClick={decrementNumbers}>- 1</button>
-            <button className="btn btn-warning" onClick={resetNumbers}>Reset</button>
+            <div className="container centerStyle">
+
+                <div className="displayStyle moveIt">
+                    Current Number: {numbers}
+                </div>
+            
+                <div className="displayStyle m-3">
+                    <button className="btn btn-success " onClick={incrementNumbers}>+ 1</button>
+                    <button className="btn btn-danger " onClick={decrementNumbers}>- 1</button>
+                    <button className="btn btn-warning " onClick={resetNumbers}>Reset</button>
+
+                </div>
+            </div>
         </main>
     </>
   )

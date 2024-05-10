@@ -31,6 +31,6 @@ This mini challenge will help you practice setting up a React component, managin
 <b>GitHub:</b> https://github.com/dljimenez2324/ReactCounter <br>
 
 
-Peer Reviewed by (Your name here) <br>
-Comments:  <br> type your comments here <br> 
+Peer Reviewed by: Aaron Perez (Your name here) <br>
+Comments: All requirements are met, I like the catchy header. Plus Minus and reset button all function correctly. Great Job!!  <br> type your comments here <br> 
 
